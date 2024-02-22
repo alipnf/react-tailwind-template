@@ -12,7 +12,13 @@
     git clone https://github.com/alipnf/react-tailwind-template.git
 ```
 ```bash
-    cd react-tailwind-template
+    rm -rf react-tailwind-template/.git/
+```
+```bash
+    mv react-tailwind-template/ project-name
+```
+```bash
+    cd project-name
 ```
 ```bash
     pnpm install
