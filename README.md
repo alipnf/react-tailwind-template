@@ -1,29 +1,29 @@
 # react-tailwind-template
 
-- react
-- tailwind
+- **React**
+- **Tailwind CSS**
+- **React Router DOM**
 
-
-
-## how to install
-
+## How to Install
 
 ```bash
-    git clone https://github.com/alipnf/react-tailwind-template.git
-```
-```bash
-    rm -rf react-tailwind-template/.git/
-```
-```bash
-    mv react-tailwind-template/ project-name
-```
-```bash
-    cd project-name
-```
-```bash
-    pnpm install
-```
-```bash
-    pnpm run dev
+git clone https://github.com/alipnf/react-tailwind-template.git project-name
+cd project-name
+rm -rf .git/
+pnpm install
+pnpm run dev
+
 ```
 
+## Optional
+
+Edit the `package.json` file to change the project name:
+
+    Open `package.json` and modify the `"name"` field:
+
+    ```json
+    {
+      "name": "your-new-project-name",
+      // other fields...
+    }
+    ```
